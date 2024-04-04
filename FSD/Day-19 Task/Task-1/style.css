@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(213, 198, 216) !important;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(15rem,10fr));
+    text-align: center !important;
+    gap: 3rem  !important ;
+    
+}
+span{
+    font-weight: bold;
+    color: black;
+}
+#title{
+    background-color: gray;
+    height: 15%;
+    justify-content: center;
+    padding: 1rem;
+    color: whitesmoke;
+}
+.card{
+    color: purple;
+    border-radius: 55px;
+    box-shadow: 5px 5px 5px 5px rgb(230, 198, 198);
+
+    width: 20rem;
+    height: 30rem;
+   
+}
+
+.flag{
+   
+    place-content: center;
+    text-align: center;
+    height: 10rem;
+    margin:auto;
+}

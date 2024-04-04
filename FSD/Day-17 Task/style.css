@@ -1,0 +1,56 @@
+body {
+    padding: 30px;
+    margin: 20px;
+    border: 2px solid black;
+    background-color: rgb(241, 243, 113) !important;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);
+
+    text-align: center !important;
+    gap: 5rem !important;
+}
+
+#title {
+    background-color: rgb(79, 80, 6);
+    color: white;
+    margin: 5px;
+    padding: 15px;
+    border: 1px dotted whitesmoke
+}
+
+span {
+    font-weight: bold;
+}
+
+.container {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(133, 222, 238);
+
+}
+
+.cardarea {
+    width: 25rem;
+    height: 50rem;
+    border: 5px solid rgb(24, 7, 7);
+    padding: 10px;
+}
+
+
+
+.flag {
+    justify-content: center;
+    place-content: center;
+    text-align: center;
+    /* padding: 2rem; */
+    width: 10rem;
+    height: 10rem;
+    margin: auto;
+}
+
+.car {
+    /* height: 10rem; */
+    line-height: normal;
+}

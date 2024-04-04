@@ -1,0 +1,93 @@
+task: Nested element.
+
+var element = document.createElement("div");
+var span = document.createElement("span");
+span.innerHTML = "<p>Hello Everyone</p>";
+element.append(span);
+document.body.append(element);
+
+setAttribute:
+
+var element = document.createElement("div");
+element.setAttribute("class","container");
+element.innerText = "attribute";
+document.body.append(element)
+
+task:<p id="main">attribute</p>
+
+var element = document.createElement("p");
+element.setAttribute("id","main");
+element.innerText = "attribute";
+document.body.append(element);
+
+
+day-14
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 14 - DOM</title>
+    
+</head>
+<body>
+    <div id="container">hello world</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+var element = document.getElementById("container");
+console.log(element);
+
+o/p :
+
+
+
+
+
+function valid(){
+    var res = document.getElementById("email").Value;
+    
+    if(res=="b55wd2tamil@gmail.com"){
+        alert("valid user")
+    }else{
+    alert("invalid user")
+    }
+}
+day 15
+
+mouseover text colour:
+
+var div = document.createElement("div");
+div.innerText="click";
+document.body.append(div);
+div.addEventListener("mouseover",()=> div.style.color = "red" );
+function verify( ){
+    var res = prompt("Enter value",)
+    //console.log(prompt*2)
+var multi = res*2
+
+console.log(multi)
+}
+
+
+
+
+option typr code:
+
+
+
+<div class="dropdown">
+  <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Dropdown
+  </button>
+  <ul class="dropdown-menu">
+    <li><button class="dropdown-item" type="button">Dropdown item</button></li>
+    <li><button class="dropdown-item" type="button">Dropdown item</button></li>
+    <li><button class="dropdown-item" type="button">Dropdown item</button></li>
+  </ul>
+</div>
